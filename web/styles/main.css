@@ -1,0 +1,103 @@
+/* The styles for the elements */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+h1 {     
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+br {
+    clear: both;
+}
+
+#quantity {
+    width: 2em;
+}
+
+/* The styles for the tables */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50em;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+.right {
+    text-align: right;
+}
+/* Giao diện form chọn thanh toán VNPay */
+.vnpay-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.vnpay-form h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+.payment-option {
+    margin-bottom: 12px;
+}
+
+.payment-option label {
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #444;
+}
+
+/* Tùy biến nút bấm thanh toán */
+.btn-checkout {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #005bae; /* Màu xanh đặc trưng của VNPay */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-checkout:hover {
+    background-color: #004585;
+}
+.vnpay-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+.vnpay-form h3 { margin-top: 0; margin-bottom: 15px; font-size: 16px; color: #333; }
+.payment-option { margin-bottom: 12px; }
+.payment-option label { cursor: pointer; font-size: 14px; margin-left: 5px; color: #444; }
+.btn-checkout {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #005bae;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+.btn-checkout:hover { background-color: #004585; }
